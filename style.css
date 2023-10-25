@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(95, 127, 231, 0.658);
+}
+#items{
+    padding: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+#items a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+    margin-left: 20px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 81.25%;
+}
+.links{
+    font-size: 15px;
+    padding-top: 5px;
+}
+#items a:hover{
+    text-decoration: underline;
+}
+
+.material-symbols-outlined{
+    font-size: 30px;
+    color: rgb(68, 68, 68);
+}
+
+#logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#google{
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.pesquisa{
+    display: flex;
+    padding: auto;
+}
+#pesquisa{
+    text-align: center;
+}
+
+#pesquisa input{
+    width: 500px;
+    height: 35px;
+    border-radius: 15px;
+    border-style: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+    text-align: center;
+    cursor: pointer;
+}
+.icone{
+    position: absolute;
+    left:435px;
+    top: 51%;
+    transform: translateY(-50%);
+}
+
+#atalho{
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.adicionarAtalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#atalho p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(68, 68, 68);
+}
+#atalho button{
+    border-style: none;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+#atalho span{
+    font-size: 55px;
+    line-height: 50px; 
+    padding-right: 10px;
+}
+#atalho button:hover{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+
+#botao button{
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px ;
+    border: solid 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    text-align: right;
+    line-height: 30px;
+}
+#botao span{
+    float: left;
+}
+#botao{
+    text-align: end;
+    padding-top: 110px;
+    
+}
